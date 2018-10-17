@@ -1,0 +1,8 @@
+package com.pt.test;
+
+public class TestTask {
+
+	public void test(){
+		
+	}
+}

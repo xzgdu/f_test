@@ -1,0 +1,9 @@
+package com.pt.test;
+
+public class TestTask {
+
+	@Test
+	public void test(){
+		
+	}
+}

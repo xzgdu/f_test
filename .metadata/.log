@@ -1,0 +1,782 @@
+!SESSION 2018-10-17 16:15:14.772 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_13
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86 -data D:\workspaces\f_test
+
+!ENTRY org.eclipse.jface 2 0 2018-10-17 16:15:29.388
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2018-10-17 16:15:29.388
+!MESSAGE A conflict occurred for SHIFT+DEL:
+Binding(SHIFT+DEL,
+	ParameterizedCommand(Command(org.eclipse.datatools.sqltools.result.removeAllInstances,Remove All Visible Results,
+		,
+		Category(org.eclipse.datatools.sqltools.result.category,SQL Results View,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(SHIFT+DEL,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.cut,Cut,
+		Cut the selection to the clipboard,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.handlers.WidgetMethodHandler@176982e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,,system)
+Binding(SHIFT+DEL,
+	ParameterizedCommand(Command(org.topcased.modeler.deleteModelObject,Delete From Model,
+		Allows the user to delete the selected graph element and its associated model element in a Topcased editor.,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2018-10-17 16:15:32.790
+!MESSAGE Installed snippet library: C:\MyEclipse8.6\configuration\org.eclipse.osgi\bundles\120\1\.cp\snippets\html\css_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2018-10-17 16:15:32.857
+!MESSAGE Installed snippet library: C:\MyEclipse8.6\configuration\org.eclipse.osgi\bundles\120\1\.cp\snippets\html\forms_lists_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2018-10-17 16:15:32.895
+!MESSAGE Installed snippet library: C:\MyEclipse8.6\configuration\org.eclipse.osgi\bundles\120\1\.cp\snippets\html\htmlform_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2018-10-17 16:15:32.938
+!MESSAGE Installed snippet library: C:\MyEclipse8.6\configuration\org.eclipse.osgi\bundles\120\1\.cp\snippets\html\html_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2018-10-17 16:15:32.983
+!MESSAGE Installed snippet library: C:\MyEclipse8.6\configuration\org.eclipse.osgi\bundles\120\1\.cp\snippets\html\javascript_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2018-10-17 16:15:33.127
+!MESSAGE Installed snippet library: C:\MyEclipse8.6\configuration\org.eclipse.osgi\bundles\120\1\.cp\snippets\jsp\jsf_f_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2018-10-17 16:15:33.199
+!MESSAGE Installed snippet library: C:\MyEclipse8.6\configuration\org.eclipse.osgi\bundles\120\1\.cp\snippets\jsp\jsf_h_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2018-10-17 16:15:33.281
+!MESSAGE Installed snippet library: C:\MyEclipse8.6\configuration\org.eclipse.osgi\bundles\120\1\.cp\snippets\jsp\struts_bean_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2018-10-17 16:15:33.351
+!MESSAGE Installed snippet library: C:\MyEclipse8.6\configuration\org.eclipse.osgi\bundles\120\1\.cp\snippets\jsp\struts_html_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2018-10-17 16:15:33.403
+!MESSAGE Installed snippet library: C:\MyEclipse8.6\configuration\org.eclipse.osgi\bundles\120\1\.cp\snippets\jsp\struts_logic_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2018-10-17 16:15:33.542
+!MESSAGE Installed snippet library: C:\MyEclipse8.6\configuration\org.eclipse.osgi\bundles\120\1\.cp\snippets\jsp\struts_tiles_snippets.xml
+
+!ENTRY org.maven.ide.eclipse 4 0 2018-10-17 16:15:54.007
+!MESSAGE Unable to update index for central|http://repo1.maven.org/maven2
+!STACK 0
+java.io.IOException: Authorization exception retrieving nexus-maven-repository-index.properties
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater$WagonFetcher.retrieve(DefaultIndexUpdater.java:681)
+	at org.sonatype.nexus.index.updater.AbstractResourceFetcher.retrieve(AbstractResourceFetcher.java:22)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.downloadIndexProperties(DefaultIndexUpdater.java:493)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.access$100(DefaultIndexUpdater.java:74)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater$IndexAdaptor.setProperties(DefaultIndexUpdater.java:780)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.fetchAndUpdateIndex(DefaultIndexUpdater.java:954)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.fetchAndUpdateIndex(DefaultIndexUpdater.java:138)
+	at org.maven.ide.eclipse.internal.index.NexusIndexManager.updateRemoteIndex(NexusIndexManager.java:1060)
+	at org.maven.ide.eclipse.internal.index.NexusIndexManager.updateIndex(NexusIndexManager.java:1013)
+	at org.maven.ide.eclipse.internal.index.NexusIndexManager$1.run(NexusIndexManager.java:624)
+	at org.maven.ide.eclipse.internal.index.IndexUpdaterJob.run(IndexUpdaterJob.java:71)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-17 16:15:58.329
+!MESSAGE NLS missing message: JavaMetaUtils_warning_default_package in: com.genuitec.eclipse.core.platformmessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-17 16:15:58.330
+!MESSAGE NLS missing message: JavaVMUtility_dialog_jdk_doesnt_exist_message in: com.genuitec.eclipse.core.platformmessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-17 16:15:58.330
+!MESSAGE NLS missing message: JavaVMUtility_dialog_jdk_doesnt_exist_title in: com.genuitec.eclipse.core.platformmessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-17 16:15:58.331
+!MESSAGE NLS missing message: JavaVMUtility_dialog_jdk_not_jre_message in: com.genuitec.eclipse.core.platformmessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-17 16:15:58.336
+!MESSAGE NLS missing message: JavaVMUtility_dialog_jdk_not_jre_title in: com.genuitec.eclipse.core.platformmessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-17 16:15:58.336
+!MESSAGE NLS missing message: JavaVMUtility_launchconfig_default_server_type_id_attr in: com.genuitec.eclipse.core.platformmessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-17 16:15:58.337
+!MESSAGE NLS missing message: MELibraryFieldEditor_dialog_browse_jar_title in: com.genuitec.eclipse.core.platformmessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-17 16:15:58.338
+!MESSAGE NLS missing message: MELibraryFieldEditor_dialog_invalidfile_message in: com.genuitec.eclipse.core.platformmessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-17 16:15:58.339
+!MESSAGE NLS missing message: MELibraryFieldEditor_dialog_invalidfile_title in: com.genuitec.eclipse.core.platformmessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-17 16:15:58.340
+!MESSAGE NLS missing message: MELibraryFieldEditor_button_add_label in: com.genuitec.eclipse.core.platformmessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-17 16:15:58.342
+!MESSAGE NLS missing message: MELibraryFieldEditor_button_down_label in: com.genuitec.eclipse.core.platformmessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-17 16:15:58.343
+!MESSAGE NLS missing message: MELibraryFieldEditor_button_edit_label in: com.genuitec.eclipse.core.platformmessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-17 16:15:58.344
+!MESSAGE NLS missing message: MELibraryFieldEditor_button_remove_label in: com.genuitec.eclipse.core.platformmessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-17 16:15:58.344
+!MESSAGE NLS missing message: MELibraryFieldEditor_button_up_label in: com.genuitec.eclipse.core.platformmessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-17 16:15:58.345
+!MESSAGE NLS missing message: MELibraryWizardPage_description in: com.genuitec.eclipse.core.platformmessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-17 16:15:58.346
+!MESSAGE NLS missing message: MELibraryWizardPage_error_selection_onlyone in: com.genuitec.eclipse.core.platformmessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-17 16:15:58.347
+!MESSAGE NLS missing message: MELibraryWizardPage_error_selection_zero in: com.genuitec.eclipse.core.platformmessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-17 16:15:58.348
+!MESSAGE NLS missing message: MELibraryWizardPage_list_library_selector_label in: com.genuitec.eclipse.core.platformmessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-10-17 16:15:58.348
+!MESSAGE NLS missing message: MELibraryWizardPage_title in: com.genuitec.eclipse.core.platformmessages
+
+!ENTRY com.genuitec.eclipse.maven 1 0 2018-10-17 16:16:00.532
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3 or one of its dependencies could not be resolved: Missing:
+----------
+1) org.codehaus.plexus:plexus-utils:jar:1.5.6
+
+  Try downloading the file manually from the project website.
+
+  Then, install it using the command: 
+      mvn install:install-file -DgroupId=org.codehaus.plexus -DartifactId=plexus-utils -Dversion=1.5.6 -Dpackaging=jar -Dfile=/path/to/file
+
+  Alternatively, if you host your own repository you can deploy the file there: 
+      mvn deploy:deploy-file -DgroupId=org.codehaus.plexus -DartifactId=plexus-utils -Dversion=1.5.6 -Dpackaging=jar -Dfile=/path/to/file -Durl=[url] -DrepositoryId=[id]
+
+  Path to dependency: 
+  	1) org.apache.maven.plugins:maven-install-plugin:maven-plugin:2.3
+  	2) org.codehaus.plexus:plexus-utils:jar:1.5.6
+
+----------
+1 required artifact is missing.
+
+for artifact: 
+  org.apache.maven.plugins:maven-install-plugin:maven-plugin:2.3
+
+from the specified remote repositories:
+  central (http://repo1.maven.org/maven2, releases=true, snapshots=false)
+
+
+!ENTRY com.genuitec.eclipse.maven 1 0 2018-10-17 16:16:00.575
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3 or one of its dependencies could not be resolved: Missing:
+----------
+1) org.codehaus.plexus:plexus-utils:jar:1.5.6
+
+  Try downloading the file manually from the project website.
+
+  Then, install it using the command: 
+      mvn install:install-file -DgroupId=org.codehaus.plexus -DartifactId=plexus-utils -Dversion=1.5.6 -Dpackaging=jar -Dfile=/path/to/file
+
+  Alternatively, if you host your own repository you can deploy the file there: 
+      mvn deploy:deploy-file -DgroupId=org.codehaus.plexus -DartifactId=plexus-utils -Dversion=1.5.6 -Dpackaging=jar -Dfile=/path/to/file -Durl=[url] -DrepositoryId=[id]
+
+  Path to dependency: 
+  	1) org.apache.maven.plugins:maven-install-plugin:maven-plugin:2.3
+  	2) org.codehaus.plexus:plexus-utils:jar:1.5.6
+
+----------
+1 required artifact is missing.
+
+for artifact: 
+  org.apache.maven.plugins:maven-install-plugin:maven-plugin:2.3
+
+from the specified remote repositories:
+  central (http://repo1.maven.org/maven2, releases=true, snapshots=false)
+
+
+!ENTRY com.genuitec.eclipse.maven 1 0 2018-10-17 16:16:00.609
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3 or one of its dependencies could not be resolved: Missing:
+----------
+1) org.codehaus.plexus:plexus-utils:jar:1.5.6
+
+  Try downloading the file manually from the project website.
+
+  Then, install it using the command: 
+      mvn install:install-file -DgroupId=org.codehaus.plexus -DartifactId=plexus-utils -Dversion=1.5.6 -Dpackaging=jar -Dfile=/path/to/file
+
+  Alternatively, if you host your own repository you can deploy the file there: 
+      mvn deploy:deploy-file -DgroupId=org.codehaus.plexus -DartifactId=plexus-utils -Dversion=1.5.6 -Dpackaging=jar -Dfile=/path/to/file -Durl=[url] -DrepositoryId=[id]
+
+  Path to dependency: 
+  	1) org.apache.maven.plugins:maven-install-plugin:maven-plugin:2.3
+  	2) org.codehaus.plexus:plexus-utils:jar:1.5.6
+
+----------
+1 required artifact is missing.
+
+for artifact: 
+  org.apache.maven.plugins:maven-install-plugin:maven-plugin:2.3
+
+from the specified remote repositories:
+  central (http://repo1.maven.org/maven2, releases=true, snapshots=false)
+
+
+!ENTRY com.genuitec.eclipse.maven 1 0 2018-10-17 16:16:00.673
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3 or one of its dependencies could not be resolved: Missing:
+----------
+1) org.codehaus.plexus:plexus-utils:jar:1.5.6
+
+  Try downloading the file manually from the project website.
+
+  Then, install it using the command: 
+      mvn install:install-file -DgroupId=org.codehaus.plexus -DartifactId=plexus-utils -Dversion=1.5.6 -Dpackaging=jar -Dfile=/path/to/file
+
+  Alternatively, if you host your own repository you can deploy the file there: 
+      mvn deploy:deploy-file -DgroupId=org.codehaus.plexus -DartifactId=plexus-utils -Dversion=1.5.6 -Dpackaging=jar -Dfile=/path/to/file -Durl=[url] -DrepositoryId=[id]
+
+  Path to dependency: 
+  	1) org.apache.maven.plugins:maven-install-plugin:maven-plugin:2.3
+  	2) org.codehaus.plexus:plexus-utils:jar:1.5.6
+
+----------
+1 required artifact is missing.
+
+for artifact: 
+  org.apache.maven.plugins:maven-install-plugin:maven-plugin:2.3
+
+from the specified remote repositories:
+  central (http://repo1.maven.org/maven2, releases=true, snapshots=false)
+
+
+!ENTRY com.genuitec.eclipse.maven 1 0 2018-10-17 16:16:00.720
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3 or one of its dependencies could not be resolved: Missing:
+----------
+1) org.codehaus.plexus:plexus-utils:jar:1.5.6
+
+  Try downloading the file manually from the project website.
+
+  Then, install it using the command: 
+      mvn install:install-file -DgroupId=org.codehaus.plexus -DartifactId=plexus-utils -Dversion=1.5.6 -Dpackaging=jar -Dfile=/path/to/file
+
+  Alternatively, if you host your own repository you can deploy the file there: 
+      mvn deploy:deploy-file -DgroupId=org.codehaus.plexus -DartifactId=plexus-utils -Dversion=1.5.6 -Dpackaging=jar -Dfile=/path/to/file -Durl=[url] -DrepositoryId=[id]
+
+  Path to dependency: 
+  	1) org.apache.maven.plugins:maven-install-plugin:maven-plugin:2.3
+  	2) org.codehaus.plexus:plexus-utils:jar:1.5.6
+
+----------
+1 required artifact is missing.
+
+for artifact: 
+  org.apache.maven.plugins:maven-install-plugin:maven-plugin:2.3
+
+from the specified remote repositories:
+  central (http://repo1.maven.org/maven2, releases=true, snapshots=false)
+
+
+!ENTRY com.genuitec.eclipse.maven 1 0 2018-10-17 16:16:00.754
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3 or one of its dependencies could not be resolved: Missing:
+----------
+1) org.codehaus.plexus:plexus-utils:jar:1.5.6
+
+  Try downloading the file manually from the project website.
+
+  Then, install it using the command: 
+      mvn install:install-file -DgroupId=org.codehaus.plexus -DartifactId=plexus-utils -Dversion=1.5.6 -Dpackaging=jar -Dfile=/path/to/file
+
+  Alternatively, if you host your own repository you can deploy the file there: 
+      mvn deploy:deploy-file -DgroupId=org.codehaus.plexus -DartifactId=plexus-utils -Dversion=1.5.6 -Dpackaging=jar -Dfile=/path/to/file -Durl=[url] -DrepositoryId=[id]
+
+  Path to dependency: 
+  	1) org.apache.maven.plugins:maven-install-plugin:maven-plugin:2.3
+  	2) org.codehaus.plexus:plexus-utils:jar:1.5.6
+
+----------
+1 required artifact is missing.
+
+for artifact: 
+  org.apache.maven.plugins:maven-install-plugin:maven-plugin:2.3
+
+from the specified remote repositories:
+  central (http://repo1.maven.org/maven2, releases=true, snapshots=false)
+
+
+!ENTRY com.genuitec.eclipse.maven 1 0 2018-10-17 16:16:00.830
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3 or one of its dependencies could not be resolved: Missing:
+----------
+1) org.codehaus.plexus:plexus-utils:jar:1.5.6
+
+  Try downloading the file manually from the project website.
+
+  Then, install it using the command: 
+      mvn install:install-file -DgroupId=org.codehaus.plexus -DartifactId=plexus-utils -Dversion=1.5.6 -Dpackaging=jar -Dfile=/path/to/file
+
+  Alternatively, if you host your own repository you can deploy the file there: 
+      mvn deploy:deploy-file -DgroupId=org.codehaus.plexus -DartifactId=plexus-utils -Dversion=1.5.6 -Dpackaging=jar -Dfile=/path/to/file -Durl=[url] -DrepositoryId=[id]
+
+  Path to dependency: 
+  	1) org.apache.maven.plugins:maven-install-plugin:maven-plugin:2.3
+  	2) org.codehaus.plexus:plexus-utils:jar:1.5.6
+
+----------
+1 required artifact is missing.
+
+for artifact: 
+  org.apache.maven.plugins:maven-install-plugin:maven-plugin:2.3
+
+from the specified remote repositories:
+  central (http://repo1.maven.org/maven2, releases=true, snapshots=false)
+
+
+!ENTRY com.genuitec.eclipse.maven 1 0 2018-10-17 16:16:01.417
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3 or one of its dependencies could not be resolved: Missing:
+----------
+1) org.codehaus.plexus:plexus-utils:jar:1.5.6
+
+  Try downloading the file manually from the project website.
+
+  Then, install it using the command: 
+      mvn install:install-file -DgroupId=org.codehaus.plexus -DartifactId=plexus-utils -Dversion=1.5.6 -Dpackaging=jar -Dfile=/path/to/file
+
+  Alternatively, if you host your own repository you can deploy the file there: 
+      mvn deploy:deploy-file -DgroupId=org.codehaus.plexus -DartifactId=plexus-utils -Dversion=1.5.6 -Dpackaging=jar -Dfile=/path/to/file -Durl=[url] -DrepositoryId=[id]
+
+  Path to dependency: 
+  	1) org.apache.maven.plugins:maven-install-plugin:maven-plugin:2.3
+  	2) org.codehaus.plexus:plexus-utils:jar:1.5.6
+
+----------
+1 required artifact is missing.
+
+for artifact: 
+  org.apache.maven.plugins:maven-install-plugin:maven-plugin:2.3
+
+from the specified remote repositories:
+  central (http://repo1.maven.org/maven2, releases=true, snapshots=false)
+
+
+!ENTRY com.genuitec.eclipse.maven 1 0 2018-10-17 16:16:01.471
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3 or one of its dependencies could not be resolved: Missing:
+----------
+1) org.codehaus.plexus:plexus-utils:jar:1.5.6
+
+  Try downloading the file manually from the project website.
+
+  Then, install it using the command: 
+      mvn install:install-file -DgroupId=org.codehaus.plexus -DartifactId=plexus-utils -Dversion=1.5.6 -Dpackaging=jar -Dfile=/path/to/file
+
+  Alternatively, if you host your own repository you can deploy the file there: 
+      mvn deploy:deploy-file -DgroupId=org.codehaus.plexus -DartifactId=plexus-utils -Dversion=1.5.6 -Dpackaging=jar -Dfile=/path/to/file -Durl=[url] -DrepositoryId=[id]
+
+  Path to dependency: 
+  	1) org.apache.maven.plugins:maven-install-plugin:maven-plugin:2.3
+  	2) org.codehaus.plexus:plexus-utils:jar:1.5.6
+
+----------
+1 required artifact is missing.
+
+for artifact: 
+  org.apache.maven.plugins:maven-install-plugin:maven-plugin:2.3
+
+from the specified remote repositories:
+  central (http://repo1.maven.org/maven2, releases=true, snapshots=false)
+
+
+!ENTRY com.genuitec.eclipse.maven 1 0 2018-10-17 16:16:01.549
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3 or one of its dependencies could not be resolved: Missing:
+----------
+1) org.codehaus.plexus:plexus-utils:jar:1.5.6
+
+  Try downloading the file manually from the project website.
+
+  Then, install it using the command: 
+      mvn install:install-file -DgroupId=org.codehaus.plexus -DartifactId=plexus-utils -Dversion=1.5.6 -Dpackaging=jar -Dfile=/path/to/file
+
+  Alternatively, if you host your own repository you can deploy the file there: 
+      mvn deploy:deploy-file -DgroupId=org.codehaus.plexus -DartifactId=plexus-utils -Dversion=1.5.6 -Dpackaging=jar -Dfile=/path/to/file -Durl=[url] -DrepositoryId=[id]
+
+  Path to dependency: 
+  	1) org.apache.maven.plugins:maven-install-plugin:maven-plugin:2.3
+  	2) org.codehaus.plexus:plexus-utils:jar:1.5.6
+
+----------
+1 required artifact is missing.
+
+for artifact: 
+  org.apache.maven.plugins:maven-install-plugin:maven-plugin:2.3
+
+from the specified remote repositories:
+  central (http://repo1.maven.org/maven2, releases=true, snapshots=false)
+
+
+!ENTRY com.genuitec.eclipse.maven 1 0 2018-10-17 16:16:01.608
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3 or one of its dependencies could not be resolved: Missing:
+----------
+1) org.codehaus.plexus:plexus-utils:jar:1.5.6
+
+  Try downloading the file manually from the project website.
+
+  Then, install it using the command: 
+      mvn install:install-file -DgroupId=org.codehaus.plexus -DartifactId=plexus-utils -Dversion=1.5.6 -Dpackaging=jar -Dfile=/path/to/file
+
+  Alternatively, if you host your own repository you can deploy the file there: 
+      mvn deploy:deploy-file -DgroupId=org.codehaus.plexus -DartifactId=plexus-utils -Dversion=1.5.6 -Dpackaging=jar -Dfile=/path/to/file -Durl=[url] -DrepositoryId=[id]
+
+  Path to dependency: 
+  	1) org.apache.maven.plugins:maven-install-plugin:maven-plugin:2.3
+  	2) org.codehaus.plexus:plexus-utils:jar:1.5.6
+
+----------
+1 required artifact is missing.
+
+for artifact: 
+  org.apache.maven.plugins:maven-install-plugin:maven-plugin:2.3
+
+from the specified remote repositories:
+  central (http://repo1.maven.org/maven2, releases=true, snapshots=false)
+
+
+!ENTRY com.genuitec.eclipse.maven 1 0 2018-10-17 16:16:01.728
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3 or one of its dependencies could not be resolved: Missing:
+----------
+1) org.codehaus.plexus:plexus-utils:jar:1.5.6
+
+  Try downloading the file manually from the project website.
+
+  Then, install it using the command: 
+      mvn install:install-file -DgroupId=org.codehaus.plexus -DartifactId=plexus-utils -Dversion=1.5.6 -Dpackaging=jar -Dfile=/path/to/file
+
+  Alternatively, if you host your own repository you can deploy the file there: 
+      mvn deploy:deploy-file -DgroupId=org.codehaus.plexus -DartifactId=plexus-utils -Dversion=1.5.6 -Dpackaging=jar -Dfile=/path/to/file -Durl=[url] -DrepositoryId=[id]
+
+  Path to dependency: 
+  	1) org.apache.maven.plugins:maven-install-plugin:maven-plugin:2.3
+  	2) org.codehaus.plexus:plexus-utils:jar:1.5.6
+
+----------
+1 required artifact is missing.
+
+for artifact: 
+  org.apache.maven.plugins:maven-install-plugin:maven-plugin:2.3
+
+from the specified remote repositories:
+  central (http://repo1.maven.org/maven2, releases=true, snapshots=false)
+
+
+!ENTRY com.genuitec.eclipse.maven 1 0 2018-10-17 16:16:01.761
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3 or one of its dependencies could not be resolved: Missing:
+----------
+1) org.codehaus.plexus:plexus-utils:jar:1.5.6
+
+  Try downloading the file manually from the project website.
+
+  Then, install it using the command: 
+      mvn install:install-file -DgroupId=org.codehaus.plexus -DartifactId=plexus-utils -Dversion=1.5.6 -Dpackaging=jar -Dfile=/path/to/file
+
+  Alternatively, if you host your own repository you can deploy the file there: 
+      mvn deploy:deploy-file -DgroupId=org.codehaus.plexus -DartifactId=plexus-utils -Dversion=1.5.6 -Dpackaging=jar -Dfile=/path/to/file -Durl=[url] -DrepositoryId=[id]
+
+  Path to dependency: 
+  	1) org.apache.maven.plugins:maven-install-plugin:maven-plugin:2.3
+  	2) org.codehaus.plexus:plexus-utils:jar:1.5.6
+
+----------
+1 required artifact is missing.
+
+for artifact: 
+  org.apache.maven.plugins:maven-install-plugin:maven-plugin:2.3
+
+from the specified remote repositories:
+  central (http://repo1.maven.org/maven2, releases=true, snapshots=false)
+
+
+!ENTRY com.genuitec.eclipse.maven 1 0 2018-10-17 16:16:02.472
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3 or one of its dependencies could not be resolved: Missing:
+----------
+1) org.codehaus.plexus:plexus-utils:jar:1.5.6
+
+  Try downloading the file manually from the project website.
+
+  Then, install it using the command: 
+      mvn install:install-file -DgroupId=org.codehaus.plexus -DartifactId=plexus-utils -Dversion=1.5.6 -Dpackaging=jar -Dfile=/path/to/file
+
+  Alternatively, if you host your own repository you can deploy the file there: 
+      mvn deploy:deploy-file -DgroupId=org.codehaus.plexus -DartifactId=plexus-utils -Dversion=1.5.6 -Dpackaging=jar -Dfile=/path/to/file -Durl=[url] -DrepositoryId=[id]
+
+  Path to dependency: 
+  	1) org.apache.maven.plugins:maven-install-plugin:maven-plugin:2.3
+  	2) org.codehaus.plexus:plexus-utils:jar:1.5.6
+
+----------
+1 required artifact is missing.
+
+for artifact: 
+  org.apache.maven.plugins:maven-install-plugin:maven-plugin:2.3
+
+from the specified remote repositories:
+  central (http://repo1.maven.org/maven2, releases=true, snapshots=false)
+
+
+!ENTRY com.genuitec.eclipse.maven 1 0 2018-10-17 16:16:04.244
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3 or one of its dependencies could not be resolved: Missing:
+----------
+1) org.codehaus.plexus:plexus-utils:jar:1.5.6
+
+  Try downloading the file manually from the project website.
+
+  Then, install it using the command: 
+      mvn install:install-file -DgroupId=org.codehaus.plexus -DartifactId=plexus-utils -Dversion=1.5.6 -Dpackaging=jar -Dfile=/path/to/file
+
+  Alternatively, if you host your own repository you can deploy the file there: 
+      mvn deploy:deploy-file -DgroupId=org.codehaus.plexus -DartifactId=plexus-utils -Dversion=1.5.6 -Dpackaging=jar -Dfile=/path/to/file -Durl=[url] -DrepositoryId=[id]
+
+  Path to dependency: 
+  	1) org.apache.maven.plugins:maven-install-plugin:maven-plugin:2.3
+  	2) org.codehaus.plexus:plexus-utils:jar:1.5.6
+
+----------
+1 required artifact is missing.
+
+for artifact: 
+  org.apache.maven.plugins:maven-install-plugin:maven-plugin:2.3
+
+from the specified remote repositories:
+  central (http://repo1.maven.org/maven2, releases=true, snapshots=false)
+
+
+!ENTRY com.genuitec.eclipse.maven 1 0 2018-10-17 16:16:05.548
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3 or one of its dependencies could not be resolved: Missing:
+----------
+1) org.codehaus.plexus:plexus-utils:jar:1.5.6
+
+  Try downloading the file manually from the project website.
+
+  Then, install it using the command: 
+      mvn install:install-file -DgroupId=org.codehaus.plexus -DartifactId=plexus-utils -Dversion=1.5.6 -Dpackaging=jar -Dfile=/path/to/file
+
+  Alternatively, if you host your own repository you can deploy the file there: 
+      mvn deploy:deploy-file -DgroupId=org.codehaus.plexus -DartifactId=plexus-utils -Dversion=1.5.6 -Dpackaging=jar -Dfile=/path/to/file -Durl=[url] -DrepositoryId=[id]
+
+  Path to dependency: 
+  	1) org.apache.maven.plugins:maven-install-plugin:maven-plugin:2.3
+  	2) org.codehaus.plexus:plexus-utils:jar:1.5.6
+
+----------
+1 required artifact is missing.
+
+for artifact: 
+  org.apache.maven.plugins:maven-install-plugin:maven-plugin:2.3
+
+from the specified remote repositories:
+  central (http://repo1.maven.org/maven2, releases=true, snapshots=false)
+
+
+!ENTRY com.genuitec.eclipse.maven 1 0 2018-10-17 16:17:42.309
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3 or one of its dependencies could not be resolved: Missing:
+----------
+1) org.codehaus.plexus:plexus-utils:jar:1.5.6
+
+  Try downloading the file manually from the project website.
+
+  Then, install it using the command: 
+      mvn install:install-file -DgroupId=org.codehaus.plexus -DartifactId=plexus-utils -Dversion=1.5.6 -Dpackaging=jar -Dfile=/path/to/file
+
+  Alternatively, if you host your own repository you can deploy the file there: 
+      mvn deploy:deploy-file -DgroupId=org.codehaus.plexus -DartifactId=plexus-utils -Dversion=1.5.6 -Dpackaging=jar -Dfile=/path/to/file -Durl=[url] -DrepositoryId=[id]
+
+  Path to dependency: 
+  	1) org.apache.maven.plugins:maven-install-plugin:maven-plugin:2.3
+  	2) org.codehaus.plexus:plexus-utils:jar:1.5.6
+
+----------
+1 required artifact is missing.
+
+for artifact: 
+  org.apache.maven.plugins:maven-install-plugin:maven-plugin:2.3
+
+from the specified remote repositories:
+  central (http://repo1.maven.org/maven2, releases=true, snapshots=false)
+
+
+!ENTRY org.maven.ide.eclipse 4 0 2018-10-17 16:17:43.231
+!MESSAGE Build errors for mavenTest
+!STACK 0
+org.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal on project mavenTest: Unable to get dependency information for org.apache.openejb:javaee-api:jar:5.0-1: Failed to process POM for org.apache.openejb:javaee-api:jar:5.0-1: Non-resolvable parent POM org.apache.openejb:deps:3.0-beta-2 for org.apache.openejb:javaee-api:5.0-1: Failed to resolve POM for org.apache.openejb:deps:3.0-beta-2 due to Missing:
+----------
+1) org.apache.openejb:deps:pom:3.0-beta-2
+----------
+1 required artifact is missing.
+
+for artifact: 
+  org.apache.openejb:deps:pom:3.0-beta-2
+
+from the specified remote repositories:
+  central (http://repo1.maven.org/maven2, releases=true, snapshots=false)
+
+	at org.apache.maven.lifecycle.DefaultLifecycleExecutor.resolveProjectDependencies(DefaultLifecycleExecutor.java:416)
+	at org.apache.maven.lifecycle.DefaultLifecycleExecutor.execute(DefaultLifecycleExecutor.java:314)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:247)
+	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:104)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.execute(MavenImpl.java:218)
+	at org.maven.ide.eclipse.internal.project.GenericBuildParticipant.executePostBuild(GenericBuildParticipant.java:139)
+	at org.maven.ide.eclipse.internal.project.GenericBuildParticipant.build(GenericBuildParticipant.java:78)
+	at org.maven.ide.eclipse.internal.builder.MavenBuilder.build(MavenBuilder.java:153)
+	at com.genuitec.eclipse.maven.project.MyEclipseMavenBuilder.build(MyEclipseMavenBuilder.java:24)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:627)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:170)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:201)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:253)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:256)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:309)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:341)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:140)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:238)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.apache.maven.artifact.resolver.ArtifactResolutionException: Unable to get dependency information for org.apache.openejb:javaee-api:jar:5.0-1: Failed to process POM for org.apache.openejb:javaee-api:jar:5.0-1: Non-resolvable parent POM org.apache.openejb:deps:3.0-beta-2 for org.apache.openejb:javaee-api:5.0-1: Failed to resolve POM for org.apache.openejb:deps:3.0-beta-2 due to Missing:
+----------
+1) org.apache.openejb:deps:pom:3.0-beta-2
+----------
+1 required artifact is missing.
+
+for artifact: 
+  org.apache.openejb:deps:pom:3.0-beta-2
+
+from the specified remote repositories:
+  central (http://repo1.maven.org/maven2, releases=true, snapshots=false)
+
+	at org.apache.maven.repository.legacy.resolver.DefaultLegacyArtifactCollector.recurse(DefaultLegacyArtifactCollector.java:586)
+	at org.apache.maven.repository.legacy.resolver.DefaultLegacyArtifactCollector.collect(DefaultLegacyArtifactCollector.java:150)
+	at org.apache.maven.artifact.resolver.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:590)
+	at org.apache.maven.repository.legacy.LegacyRepositorySystem.resolve(LegacyRepositorySystem.java:325)
+	at org.apache.maven.DefaultProjectDependenciesResolver.resolve(DefaultProjectDependenciesResolver.java:152)
+	at org.apache.maven.DefaultProjectDependenciesResolver.resolve(DefaultProjectDependenciesResolver.java:66)
+	at org.apache.maven.lifecycle.DefaultLifecycleExecutor.resolveProjectDependencies(DefaultLifecycleExecutor.java:385)
+	... 20 more
+Caused by: org.apache.maven.artifact.metadata.ArtifactMetadataRetrievalException: Failed to process POM for org.apache.openejb:javaee-api:jar:5.0-1: Non-resolvable parent POM org.apache.openejb:deps:3.0-beta-2 for org.apache.openejb:javaee-api:5.0-1: Failed to resolve POM for org.apache.openejb:deps:3.0-beta-2 due to Missing:
+----------
+1) org.apache.openejb:deps:pom:3.0-beta-2
+----------
+1 required artifact is missing.
+
+for artifact: 
+  org.apache.openejb:deps:pom:3.0-beta-2
+
+from the specified remote repositories:
+  central (http://repo1.maven.org/maven2, releases=true, snapshots=false)
+
+	at org.apache.maven.project.artifact.MavenMetadataSource.retrieveRelocatedProject(MavenMetadataSource.java:582)
+	at org.apache.maven.project.artifact.MavenMetadataSource.retrieve(MavenMetadataSource.java:188)
+	at org.apache.maven.repository.legacy.resolver.DefaultLegacyArtifactCollector.recurse(DefaultLegacyArtifactCollector.java:533)
+	... 26 more
+Caused by: org.apache.maven.model.resolution.UnresolvableModelException: Failed to resolve POM for org.apache.openejb:deps:3.0-beta-2 due to Missing:
+----------
+1) org.apache.openejb:deps:pom:3.0-beta-2
+----------
+1 required artifact is missing.
+
+for artifact: 
+  org.apache.openejb:deps:pom:3.0-beta-2
+
+from the specified remote repositories:
+  central (http://repo1.maven.org/maven2, releases=true, snapshots=false)
+
+	at org.apache.maven.project.RepositoryModelResolver.resolveModel(RepositoryModelResolver.java:179)
+	at org.apache.maven.model.building.DefaultModelBuilder.readParentExternally(DefaultModelBuilder.java:582)
+	at org.apache.maven.model.building.DefaultModelBuilder.readParent(DefaultModelBuilder.java:449)
+	at org.apache.maven.model.building.DefaultModelBuilder.build(DefaultModelBuilder.java:182)
+	at org.apache.maven.model.building.DefaultModelBuilder.build(DefaultModelBuilder.java:117)
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:117)
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:245)
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:204)
+	at org.apache.maven.project.artifact.MavenMetadataSource.retrieveRelocatedProject(MavenMetadataSource.java:575)
+	... 28 more
+Caused by: org.apache.maven.artifact.resolver.MultipleArtifactsNotFoundException: Missing:
+----------
+1) org.apache.openejb:deps:pom:3.0-beta-2
+----------
+1 required artifact is missing.
+
+for artifact: 
+  org.apache.openejb:deps:pom:3.0-beta-2
+
+from the specified remote repositories:
+  central (http://repo1.maven.org/maven2, releases=true, snapshots=false)
+
+	at org.apache.maven.artifact.resolver.DefaultResolutionErrorHandler.throwErrors(DefaultResolutionErrorHandler.java:71)
+	at org.apache.maven.project.RepositoryModelResolver.resolveModel(RepositoryModelResolver.java:175)
+	... 36 more
+
+!ENTRY com.genuitec.eclipse.maven 1 0 2018-10-17 16:17:46.820
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3 or one of its dependencies could not be resolved: Missing:
+----------
+1) org.codehaus.plexus:plexus-utils:jar:1.5.6
+
+  Try downloading the file manually from the project website.
+
+  Then, install it using the command: 
+      mvn install:install-file -DgroupId=org.codehaus.plexus -DartifactId=plexus-utils -Dversion=1.5.6 -Dpackaging=jar -Dfile=/path/to/file
+
+  Alternatively, if you host your own repository you can deploy the file there: 
+      mvn deploy:deploy-file -DgroupId=org.codehaus.plexus -DartifactId=plexus-utils -Dversion=1.5.6 -Dpackaging=jar -Dfile=/path/to/file -Durl=[url] -DrepositoryId=[id]
+
+  Path to dependency: 
+  	1) org.apache.maven.plugins:maven-install-plugin:maven-plugin:2.3
+  	2) org.codehaus.plexus:plexus-utils:jar:1.5.6
+
+----------
+1 required artifact is missing.
+
+for artifact: 
+  org.apache.maven.plugins:maven-install-plugin:maven-plugin:2.3
+
+from the specified remote repositories:
+  central (http://repo1.maven.org/maven2, releases=true, snapshots=false)
+
+
+!ENTRY com.genuitec.eclipse.maven 1 0 2018-10-17 16:17:47.999
+!MESSAGE Execution errororg.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-install-plugin:2.3:install-file (default-cli) on project standalone-pom: Execution default-cli of goal org.apache.maven.plugins:maven-install-plugin:2.3:install-file failed: Plugin org.apache.maven.plugins:maven-install-plugin:2.3 or one of its dependencies could not be resolved: Missing:
+----------
+1) org.codehaus.plexus:plexus-utils:jar:1.5.6
+
+  Try downloading the file manually from the project website.
+
+  Then, install it using the command: 
+      mvn install:install-file -DgroupId=org.codehaus.plexus -DartifactId=plexus-utils -Dversion=1.5.6 -Dpackaging=jar -Dfile=/path/to/file
+
+  Alternatively, if you host your own repository you can deploy the file there: 
+      mvn deploy:deploy-file -DgroupId=org.codehaus.plexus -DartifactId=plexus-utils -Dversion=1.5.6 -Dpackaging=jar -Dfile=/path/to/file -Durl=[url] -DrepositoryId=[id]
+
+  Path to dependency: 
+  	1) org.apache.maven.plugins:maven-install-plugin:maven-plugin:2.3
+  	2) org.codehaus.plexus:plexus-utils:jar:1.5.6
+
+----------
+1 required artifact is missing.
+
+for artifact: 
+  org.apache.maven.plugins:maven-install-plugin:maven-plugin:2.3
+
+from the specified remote repositories:
+  central (http://repo1.maven.org/maven2, releases=true, snapshots=false)
+
+
+!ENTRY org.maven.ide.eclipse 4 0 2018-10-17 16:20:38.225
+!MESSAGE Unable to update index for central|http://repo1.maven.org/maven2
+!STACK 0
+java.io.IOException: Authorization exception retrieving nexus-maven-repository-index.properties
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater$WagonFetcher.retrieve(DefaultIndexUpdater.java:681)
+	at org.sonatype.nexus.index.updater.AbstractResourceFetcher.retrieve(AbstractResourceFetcher.java:22)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.downloadIndexProperties(DefaultIndexUpdater.java:493)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.access$100(DefaultIndexUpdater.java:74)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater$IndexAdaptor.setProperties(DefaultIndexUpdater.java:780)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.fetchAndUpdateIndex(DefaultIndexUpdater.java:954)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.fetchAndUpdateIndex(DefaultIndexUpdater.java:138)
+	at org.maven.ide.eclipse.internal.index.NexusIndexManager.updateRemoteIndex(NexusIndexManager.java:1060)
+	at org.maven.ide.eclipse.internal.index.NexusIndexManager.updateIndex(NexusIndexManager.java:1013)
+	at org.maven.ide.eclipse.internal.index.NexusIndexManager$1.run(NexusIndexManager.java:624)
+	at org.maven.ide.eclipse.internal.index.IndexUpdaterJob.run(IndexUpdaterJob.java:71)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
